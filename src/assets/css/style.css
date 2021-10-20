@@ -41,11 +41,10 @@ a{ text-decoration: none;}
 #site-content{
     width: calc(100% - 250px);
     min-height: 100vh;
-    
     transition:  all 0.3s;
-    display: flex;
     flex-direction: column;
     justify-content:space-between;
+    
 
     
 }
@@ -219,3 +218,83 @@ select{
 a:hover {
     background-color: rosybrown;
   }
+  .card1{
+      color: orange;
+      margin-top:  1cm;
+      display: flex;
+      justify-content: space-around;
+  }
+  .card1iconebtn1{
+      background-color: orange;
+      border:orangered;
+      border-radius: 5px;
+      height: 38px;
+      width: 151px;
+      color: white;
+      margin-left: 150px
+  }
+  .card1iconebtn2{
+    background-color: orange;
+    border:orangered;
+    border-radius: 5px;
+    height: 38px;
+    width: 50px;
+    color: white;
+  }
+  img{
+      width: 70%;
+      height: 80%px;
+  }
+  .cardi2{
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+  }
+
+.card {
+    
+    grid-template-columns: 100%;
+    grid-template-rows: 173px auto;
+    margin-right: 1rem;
+    width: calc(27% - 1rem);
+    border: ridge whitesmoke;
+    border-radius: 5px;
+    
+}
+
+.card___corpo {
+    display: grid;
+    grid-area: card-corpo;
+    grid-row-gap: .5rem;
+    grid-template-areas: 
+        "card-cabecalho"
+        "card-conteudo";
+    grid-template-rows: 50px auto;
+    padding: .75rem;
+}
+.card___titulo {
+    color: #333333;
+    font-size: 1.5rem;
+    border-bottom: solid whitesmoke;
+    align-items: flex-start;
+     
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+}
+.card___descricao {
+    color: #333333;
+    line-height: 1.5;
+    margin: 1rem 0;
+    text-align: justify;
+}
+.titulosidbar{
+    color: white;
+    font-size: 2rem;
+    align-items: flex-start;
+    padding: .6rem;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(243, 158, 0);
+}

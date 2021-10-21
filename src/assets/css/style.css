@@ -30,6 +30,8 @@ a{ text-decoration: none;}
     background-color: white;
     transition: all 0.3s;
     box-shadow: 1px 10px 5px grey;
+    overflow-x: hidden;
+    position: fixed;
 }
 
 #sidebar.active{
@@ -39,11 +41,13 @@ a{ text-decoration: none;}
 
 
 #site-content{
-    width: calc(100% - 250px);
+    width:100%;
     min-height: 100vh;
     transition:  all 0.3s;
     flex-direction: column;
     justify-content:space-between;
+    margin-left: 240px;
+    padding: 0px 10px
     
 
     
@@ -59,7 +63,7 @@ a{ text-decoration: none;}
 ##################
 */
 .navbar-top{
-    width: 100%;
+    width: 102%;
     height: 60px;
     background-color:rgb(250, 207, 207);;
     color: #000;
@@ -92,6 +96,7 @@ a{ text-decoration: none;}
     display: inline-block;
     padding: 20px;
     font-size: 1rem;
+   
 }
 .box_content_site{
     width: 100%;
@@ -123,6 +128,7 @@ a{ text-decoration: none;}
     color:black;
     box-shadow: 1px 3px 7px grey; 
     transition: all .3s;
+    height: 45px;
 }
 .sidebar-content ul li a:hover{
     padding-left: 4rem;
@@ -161,23 +167,28 @@ margin-top: 2cm;
 ### FOOTER ####
 ###############
 */
-
-/* footer{
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height:50px;
-     background-color: rgb(255, 251, 251);
-}
-footer h2{
-    color: #fff;
-    font-weight: 300;
+.footer0{
+    margin-left: 20px;
+    align-content: space-between;
+    display:flex
     
-} */
+}
+ 
+.footer h1{
+    font-size: 4rem;
+    margin-left:22px;
+}
+footer p{
+    font-size: 1.5rem;
+    color: lawngreen;
 
+}
 
+.footer2 p{
+    margin-top: 10px;
+    margin-left: 30px;
+margin-top: 30px;
+}
 
 
 
@@ -257,7 +268,7 @@ a:hover {
     grid-template-rows: 173px auto;
     margin-right: 1rem;
     width: calc(27% - 1rem);
-    border: ridge whitesmoke;
+    border: solid whitesmoke;
     border-radius: 5px;
     
 }
@@ -297,4 +308,97 @@ a:hover {
     width: 100%;
     height: 60px;
     background-color: rgb(243, 158, 0);
+}
+.cardmain2{
+    border: solid whitesmoke; 
+    border-radius: 5px;
+    width:100%;
+    
+}
+.titulocard2{
+    color:#333333;;
+    font-size: 0.9rem;
+    align-items: flex-start;
+    padding: .6rem;
+    text-align: justify;
+    width: 100%;
+    height: 40px;
+    background-color: rosybrown ;
+  
+}
+.titulocard3{
+    color:#333333;;
+    font-size: 0.9rem;
+    align-items: flex-start;
+    padding: .6rem;
+    text-align: justify;
+    width: 100%;
+    height: 40px;
+    background-color: rosybrown ;
+  
+}
+.cardmain3{
+    border: solid whitesmoke; 
+    border-radius: 5px;
+    width:100%;
+  
+
+    }
+    .textocard3{
+        text-align: center;
+        justify-content: center;
+        
+    }
+    .textocard3 h3{
+        color: orange;
+
+
+
+    }
+     .card1iconebtn3{
+      background-color: orange;
+      border:orangered;
+      border-radius: 5px;
+      height: 38px;
+      width: 151px;
+      color: white;
+      
+     
+  }
+ .cardmain4{
+    box-shadow: 0px 0px 5px 1px grey;
+    border-radius: 3px;
+    width: 96%;
+    justify-content: center;
+    margin-left: 2%;
+    margin-top: 10px;
+  }
+  .titulocard4{
+      margin-left: 19px;  
+  }
+  .titulocard4 h4{
+      color: orange;
+
+  }
+  .card1iconebtn4{
+    background-color: orange;
+    border: orangered;
+    border-radius: 2px;
+    height: 20px;
+    width: 32px;
+    color: white;
+    margin-bottom: 9px;
+    box-shadow: 0px 0px 5px 0px grey;
+  }
+  #icone4{
+      margin-left: 15px;
+      color: orange;
+  }
+  .card1iconebtn5{
+    background-color: violet;
+    border: violet;
+    border-radius: 4px;
+    height: 38px;
+    width: 230px;
+    color: white
 }
